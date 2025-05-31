@@ -18,7 +18,7 @@ app.listen(PORT,()=>{
     // here we have installed nodemon globally using npm install -g nodemon
 })
 app.get('/ping',(req,res)=>{
-    res.send('pong');
+    res.send('pong , my name is asher');
     // this is a simple endpoint that returns 'pong' when we hit the /ping endpoint
     // we can test this endpoint by going to http://localhost:8080/ping in the browser
     // or using a tool like Postman or curl
