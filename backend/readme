@@ -1,0 +1,15 @@
+ step 1. C:\Users\acer\Desktop\auth-mern-app\backend> npm init -y
+ step 2.  npm i express jsonwebtoken bcrypt body-parser dotenv mongoose joi cors
+ step 3. express for framework
+         jsonwebtoken for JWT token - look its like a token that a client gets while he signs in - now say after logging in if our client
+         wants so information that requires authintication then this token will be use to authenticate the user.
+         bcrypt - to encrypt and decrypt stuff using hash functions and stuff to make more secure
+         dotenv - for managing enviroment variable
+         body-parser for allowing request body to the server
+         mongoose- database 
+         joi - server side validation (its like say you gave a validation that the pasword must be min 4 lenght so it will display if     the password is wrong)
+         cors - to allow other request to come to our port
+step 4. do what you want to do in the react app (read commnets there) and create the .env file to get whatever
+step 5. to better orginase things do create folders {Models,Controllers,Routes, Middlewares}
+step 6. db.js
+
